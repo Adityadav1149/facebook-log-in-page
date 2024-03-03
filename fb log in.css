@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 55px;
+    margin-top: 25px;
+    font-family: arial;
+}
+
+.box{
+    height: 300px;
+    width: 30%;
+    background: rgb(243, 235, 235);
+    border-radius: 24px;
+    margin: 30px auto;
+    box-shadow: 1px 1px 8px rgb(8, 8, 8);
+    position: relative
+}
+
+.box>h6{
+    font-size: 20px;
+    text-align: center;
+    line-height: 75px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.box > div{
+    text-align: center;
+}
+
+.username input,
+.password input,
+.btn button{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #c9c4c4;
+    margin: 8px 0;
+    padding: 12px;
+}
+
+.btn button{
+    background: blue;
+    border: 0px;
+    color: #fff;
+    cursor: pointer;
+}
+
+a{
+    margin: 0px;
+    padding: 6px;
+    text-decoration: none;
+    font-family: arial;
+    display: block;
+}
